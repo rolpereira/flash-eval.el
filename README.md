@@ -1,12 +1,12 @@
-A library for Emacs that let's you highlight a s-exp when eval'ing it.
+A package for Emacs that let's you highlight a s-exp when eval'ing it.
 
 Similar to the effect obtained in Slime when pressing C-c C-c on a
 s-exp.
 
 # Installation #
 
-To install place this file somewhere in your load-path and add the
-following to your .emacs:
+To install place the file `flash-eval.el` somewhere in your load-path
+and add the following to your .emacs:
 
 ```lisp
 (require 'flash-eval)
