@@ -19,3 +19,7 @@ and add the following to your .emacs:
                                        (local-set-key (kbd "C-c C-c") #'flash-eval-eval-defun-flash)))
 
 ```
+
+# Screencast #
+
+![screencast](screencast.gif)
