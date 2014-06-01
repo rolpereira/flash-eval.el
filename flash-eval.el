@@ -39,7 +39,7 @@
 (defun flash-eval--begin-current-defun ()
   "Returns the point representing the beginning of the defun"
   (save-excursion
-    (unless (looking-at "(defun")
+    (unless (looking-at "([[:blank:]]*defun") ;; also match "( defun"
       (beginning-of-defun))
     (point)))
 
